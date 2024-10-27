@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>Talentsync</h1>
+<h1 align="center">Talentsync</h1>
 
 <p><strong>Talentsync</strong> is a comprehensive career guidance platform designed to help individuals make informed decisions about their professional paths. The application offers a variety of features, including career assessments, curated courses, insightful blogs, and practice tests, all built using Django.</p>
 
