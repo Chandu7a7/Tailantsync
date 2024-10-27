@@ -1,3 +1,4 @@
+![logo](https://github.com/Chandu7a7/Talentsync/tree/main/Tailentsync)
 <!DOCTYPE html>
 <html lang="en">
 <head>
