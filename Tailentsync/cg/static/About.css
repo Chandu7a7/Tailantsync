@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* .box{
+    background-image: url(https://www.merementor.com/static/media/about-us.480e3c33e840d937a941.png);
+    background-size: cover;
+    height:600px;
+    width: 1350px;
+
+} */
+
+
+nav{
+   
+    width: 98vw;
+    background-color: #FFFFFF;
+    /* display: block; */
+
+    >img{
+        width: 5vw;
+        height: 8vh;
+        position: absolute;
+        top: -20px;
+        left: 10%;
+        margin: 35px 0px;
+    }
+    >ul{
+        /* float: right; */
+        display: flex;
+        margin-left: 250px;
+
+
+        >li{   
+            display: inline-block;
+            line-height: 80px;
+            margin: 10px 30px;
+            list-style: none;
+
+            >a{
+                position: relative;
+                text-transform: uppercase;
+                color: #262626;
+
+            }           
+        }
+        >button{
+            color: black;
+            padding: px;
+            font-weight: 700;
+            background-color: orange;
+            border-radius: 50px;
+            width: 100px;
+            height: 50px;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+    }
+    
+}
+    nav ul li a:before{
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;      
+        height: 3px;
+        width: 100%;
+        background: rgb(233, 222, 10);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform  .4s linear ; 
+    }
+    nav ul li a:hover:before{
+        transform: scalex(1);
+        transform-origin: left;
+        color: aqua;
+    }
+    
+
+    nav ul li a:hover{
+        color: #1A8BD1;
+    }
+
+    label #btn,
+    label #cancel{
+        color: white;
+        font-size: 30px;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+.stdimage{
+    opacity: 4; 
+    z-index: 10;
+    width: 1350px;
+}
+
+.box1{
+   
+    display: flex;
+   
+    background-size: cover;
+    justify-content: space-around;
+    
+}
+ article > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+
+    
+}
+button{
+            padding: 15px;
+            font-weight: 700;
+            background-color: aqua;
+            border-radius: 50px;
+           
+    
+    >a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding-top: 40px;
+   font-size: 25px;
+   /* background-color: white; */
+
+   >h1{
+    margin-top: 28px;
+   }
+    
+}
+.p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    height:auto;
+    width: 1200px;
+    font-size: 23px;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.on{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+
+}
+.two{
+     display: flex;
+     justify-content: space-around;
+     gap: 40px;
+}
+.three{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+
+}
+.last{
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    font-size: 20px;
+}
+.last1{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+}
+
+

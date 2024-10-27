@@ -1,0 +1,54 @@
+/* Footer  */
+
+
+.bo{
+    padding-top: 60px;
+    height: auto;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contain{
+     display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 30px;
+    
+}
+#box{
+    text-decoration: none;
+    color: ghostwhite;
+    /* font-size: 17px; */
+}
+/* h1{
+    font-size: 25px;
+}
+p{
+    font-size: 17px;
+}
+i{
+    font-size: 20px;
+    
+} */
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+  p>a{
+    color: aliceblue;
+      text-decoration: none;                                                                                                                                                  }
+}
+.last{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.f{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}

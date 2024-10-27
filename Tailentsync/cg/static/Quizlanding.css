@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.849);
+   
+}
+.hero {
+    color: rgb(10, 10, 10); 
+    padding: 100px 20px;
+    margin-left: 33%;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #FF9800;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 14%;
+    margin-top: 20%;
+}
+
+.cta-button:hover {
+    background-color: #E68A00;
+}
+
+.container{
+   padding-bottom: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   width: 50%;
+}
+
+li{
+
+line-height: 2;
+}

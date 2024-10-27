@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% comment %} <link rel="stylesheet" href="{% static "Footer.css" %}">  {% endcomment %}
+    <link rel="stylesheet" href="{% static "Home.css" %}">
+    <link rel="stylesheet" href="{% static "Assesment.css" %}">
+
+    <style>
+     #container{
+        margin-left: -700px;
+     }
+    </style>                                                                                                                                                                                                                                                                                                                                     
+</head>
+<body>
+      <!-- this is navbar section  -->
+      <section >
+        <nav >
+            <input type="checkbox" id="check">
+            <label for="check">
+             
+                <i class="fa-solid fa-bars" id="btn"></i>
+                <li class="fa fa-times" style='font-size:24px' id="cancel"></li>
+            </label>
+
+            <img src="\static\images\logo-web.png" alt="" style="width:110px; height:100px; margin-left:-45px; margin-top:15px"> 
+          <ul>
+            <li class="nav-home">  <a href="/">Home</a></li>
+            <li class="nav-link"> <a href="/About">About</a>  </li>
+            <li class="nav-link"><a href="/Assesment">Assessment</a> </li>
+            <li class="nav-link"> <a href="/Library">Career Libary</a> </li>
+            <li class="nav-link"> <a href="/Blog">Blog</a> </li>
+            <li class="nav-link"><a href="/Dashboard">Dashboard</a>  </li>
+            <li class="nav-link"><a href="/Contact">Contact</a></li>  
+            <button > <a href="/signup"> Sign In</a> </button>
+          </ul>
+        </nav>
+    </section>
+    <!-- navbar section end  -->
+
+    {% comment %} box section start  {% endcomment %}
+    <section class="box-sec" style="background-color: #D8DDF1; width:100%  ">
+        <div> 
+            <b class="heading">Know the Best in You</b>
+        </div>
+      
+        <div id="container" style="margin-left: -850px; color:black ; ">
+            <div class="btn-box"> 
+                <img src="\static\images\bag.png" alt="">
+                <h1 >8th-9th</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button style="margin-left:80px"> <a href="/Quizlanding" > Explore</a> </button> 
+            </div>
+
+           <div class="btn-box"> 
+                <img src="\static\images\earlyeducation.png" alt="">
+                <h1 >Early Education</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button class="Early-btn" style="margin-left:50px"><a href="/Quizlanding"> Early Education</a></button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\book.png" alt="">
+                <h1 >10th-12th</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button style="margin-left:80px"><a href="/Quizlanding">Explore</a></button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\certificateprogram.png" alt="">
+                <h1 >Certified Program</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button class="certified-btn" style="margin-left:42px"><a href="/Quizlanding"> Certified Program</a> </button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\collagegraguate.png" alt="">
+                <h1 >College Graduates</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                    <button style="margin-left:80px"><a href="/Quizlanding">Explore</a></button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\govermentjob.png" alt="">
+                <h1 >For Government
+                </h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button style="margin-left:80px"><a href="/Quizlanding">Explore</a></button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\collagegraguate.png" alt="">
+                <h1 >Working Professionals</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button style="margin-left:80px"><a href="/Quizlanding">Explore</a></button>
+            </div>
+            <div class="btn-box"> 
+                <img src="\static\images\govermentjob.png" alt="">
+                <h1 >For NGO & CSR</h1>
+                <p >Looking for the perfect
+                    stream and subjects
+                    you will enjoy?</p>
+                <button style="margin-left:80px"><a href="/Quizlanding">Explore</a></button>
+            </div>
+      
+          </div>
+    </section> 
+
+    <!-- footer section start -->
+    <div style="background-color:#21262c ; margin-top:800px; " >
+        <footer class="bo " >
+            <div class="contain" style="display:flex; margin-left:150px; gap:120px; ">
+                <article  style=" margin-top:88px">
+                    <h1>About us</h1><br><br>
+                    <p style="font-size: 20px; ">Online Career Counsellor <br>Guidance for Students Free <br>Career Assessments - Aims to <br> reduce the gap in the career <br>selection process faced by <br>parents & students</p><br><br><br>
+                   <span style="gap: 30px;"> <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i  class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </span>
+                 </article>
+                 <article  style=" margin-top:88px">
+                   <h1>Get in Touch</h1><br><br>
+                  <p style="font-size: 20px;"> Balaghat MP India</p><br>
+                  <i class="fa-sharp fa-solid fa-envelope"></i>  dipaleerahangdale47@gmail.com <br><br>
+                  <i class="fa-solid fa-phone-volume"></i>  6267889321
+                 </article>
+                 <article  style=" margin-top:88px">
+                    <h1 >Know More</h1><br><br>
+                    <ul style="font-size: 20px;" >
+                        <a id="box" href="#">Counsellors   ..</a><br>
+                        <a id="box"  href="#">FAQs</a> <br>
+                      
+                        <a id="box"  href="#">Gallery</a><br>
+                        <a id="box"  href="#">Sitemap</a><br><br>
+                    </ul>
+                 </article>
+                 <article  style=" margin-top:70px">
+                    <img src="https://www.merementor.com/static/media/google-review.cf37b492acd2ed1ad605.png" alt="" height="270px">
+                 </article>
+            </div>
+    
+            <!-- <div class="last">
+                <p>
+                    Game Based Career Assignment in India |Career assessment test for free|<br>Career Guidance for Student|<br>>Career Guidance After 10th|<br>>Career Guidance After 12th|<br>Career Guidance College Graduate Students|
+                </p>
+            </div><br><br> -->
+            <div class="f" style=" text-align:center;">
+                <p>© 2022. All Rights Reserved by Career Guidance</p>
+            </div><br><br><br><br>
+        </footer> 
+    </div>
+    <!-- footer end  -->
+</body>
+</html>

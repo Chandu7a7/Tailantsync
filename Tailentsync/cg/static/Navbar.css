@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:white ;
+    font-size: 18px;
+    /* background-color: ; */
+}
+.nav-sec{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(17, 24, 39);
+    /* background-color: black; */
+}
+nav{
+    height: 80px;
+    /* background-color: #ffffff51; */
+    border-radius: 10px;
+    margin: 40px 80px;
+   
+    >img{
+        width: 5vw;
+        height: 8vh;
+        position: absolute;
+        top: 17px;
+        left: 12%;
+        margin: 35px 0px;
+    }
+    >ul{
+        float: right;
+        margin-right: 25px;
+
+        >li{   
+            display: inline-block;
+            line-height: 80px;
+            margin: 0px 30px;
+  
+
+            >a{
+                position: relative;
+                text-transform: uppercase;
+                color:white;
+            }           
+        }
+        >button{
+            color: black;
+            padding: 5px;
+            font-weight: 700;
+            background-color: aqua;
+            border-radius: 50px;
+        }
+    }
+    
+}
+    nav ul li a:before{
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;      
+        height: 3px;
+        width: 100%;
+        background: rgb(233, 222, 10);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform  .4s linear ; 
+    }
+    nav ul li a:hover:before{
+        transform: scalex(1);
+        transform-origin: left;
+        color: aqua;
+    }
+    
+
+    nav ul li a:hover{
+        color: aqua;
+    }
+    label #btn,
+    label #cancel{
+        color: white;
+        font-size: 30px;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    @media (max-width:944px) {
+
+        .nav-sec{
+            height: 800px;
+        }
+        nav img{
+            left: 25%;
+            top: 20px;
+            width: 130px;
+        }
+
+        nav ul li a{
+            font-size: 17px;
+
+        }
+        @media (max-width:860px) {
+            label #btn{
+                display: block;
+            }
+            ul{
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                /* background: #34495e; */
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+            }
+            nav ul li {
+                display: block;
+                margin: 50px 0px;
+                line-height: 15px;
+            }
+            nav ul li a{
+                font-size: 20px;
+
+            }
+            #check:checked ~ ul{
+                left: 0;
+            }
+             #check:checked ~ label #btn{
+                display: none;
+            }
+            
+            #check:checked ~ label #cancel{
+                display: block;
+            } 
+        }
+        
+    }

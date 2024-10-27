@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Search
+    {% for cr in course  %}
+
+    <h1>{{cr.Course_name}}</h1>
+    <h1>{{cr.description}}</h1>
+    <img src="{{cr.imageURL}}" style="height: 10rem; width: 10rem;" alt="">
+    <!-- <h1>{{cr.imageURL}}</h1> -->
+
+    {% endfor %}
+
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <!-- custom link css -->
+    <link rel="stylesheet" href="{% static "Courses.css" %}">
+</head>
+<body>
+    <main>
+        <header class="container">
+         <div class="head">
+            <h1>Carrer Library</h1>
+         </div><br><br>
+         <div class="form">
+            <article>
+                <input class="type" type="text" id="name" placeholder=" Search carrer Library">
+            </article><br><br>
+         </div>
+        </header>
+        <section class="banner">
+            {% comment %} {% for cr in course  %}
+
+    <h1>{{cr.Course_name}}</h1>
+    <h1>{{cr.description}}</h1>
+    <img src="{{cr.imageURL}}" style="height: 10rem; width: 10rem;" alt="">
+    <!-- <h1>{{cr.imageURL}}</h1> -->
+
+    {% endfor %} {% endcomment %}
+    {% for cr in course  %}
+            <div class="card">
+                <img src="{{cr.imageURL}}" alt="">
+                <h2 style="color:red; width:10px;">{{cr.Course_name}}</h2>
+            </div>
+            {% endfor %}
+            {% comment %} <div class="card">
+                <img src="image/2.jpg" alt="">
+                <h2>Allied Medicine</h2>
+            </div>
+            <div class="card">
+                <img src="image/3.jpg" alt="">
+                <h2>Animation & Graphics</h2>
+            </div>
+            <div class="card">
+                <img src="image/4.jpg" alt="">
+                <h2>Applied arts</h2>
+            </div>
+            <div class="card">
+                <img src="image/5.jpg" alt="">
+                <h2>Architecture</h2>
+            </div>
+            <div class="card">
+                <img src="image/6.jpg" alt="">
+                <h2>Aviation</h2>
+            </div>
+            <div class="card">
+                <img src="image/7.jpg" alt="">
+                <h2>Cabin crew</h2>
+            </div>
+            <div class="card">
+                <img src="image/8.jpg" alt="">
+                <h2>Civil Services</h2>
+            </div>
+            <div class="card">
+                <img src="image/9.jpg" alt="">
+                <h2>Commerce & Accounts</h2>
+            </div>
+            <div class="card">
+                <img src="image/10.jpg" alt="">
+                <h2>Computer Application & IT</h2>
+            </div>
+            <div class="card">
+                <img src="image/11.jpg" alt="">
+                <h2>Defense</h2>
+            </div>
+            <div class="card">
+                <img src="image/12.jpg" alt="">
+                <h2>Design</h2>
+            </div>
+            <div class="card">
+                <img src="image/13.jpg" alt="">
+                <h2>Distribution and Logistics</h2>
+            </div>
+            <div class="card">
+                <img src="image/14.jpg" alt="">
+                <h2>Economics</h2>
+            </div>
+            <div class="card">
+                <img src="image/15.jpg" alt="">
+                <h2>Education & Trainng</h2>
+            </div>
+            <div class="card">
+                <img src="image/16.jpg" alt="">
+                <h2>Engineering</h2>
+            </div>
+            <div class="card">
+                <img src="image/17.jpg" alt="">
+                <h2>Entrepreunership</h2>
+            </div>
+            <div class="card">
+                <img src="image/18.jpg" alt="">
+                <h2>Ethical Hacking</h2>
+            </div>
+            <div class="card">
+                <img src="image/18.jpg" alt="">
+                <h2>Finance and Banking</h2>
+            </div>
+            <div class="card">
+                <img src="image/19.jpg" alt="">
+                <h2>Food & Agriculture</h2>
+            </div>
+            <div class="card">
+                <img src="image/20.jpg" alt="">
+                <h2>Hotel Management</h2>
+            </div>
+            <div class="card">
+                <img src="image/21.jpg" alt="">
+                <h2>Law</h2>
+            </div>
+            <div class="card">
+                <img src="image/22.jpg" alt="">
+                <h2>Life Science Environment</h2>
+            </div>
+            <div class="card">
+                <img src="image/23.jpg" alt="">
+                <h2>Management</h2>
+            </div>
+            <div class="card">
+                <img src="image/24.jpg" alt="">
+                <h2>Marketing & Advertising</h2>
+            </div>
+            <div class="card">
+                <img src="image/25.jpg" alt="">
+                <h2>Maths & Statistics</h2>
+            </div>
+            <div class="card">
+                <img src="image/26.jpg" alt="">
+                <h2>Media & Communication</h2>
+            </div>
+            <div class="card">
+                <img src="image/27.jpg" alt="">
+                <h2>Medicine</h2>
+            </div>
+            <div class="card">
+                <img src="image/28.jpg" alt="">
+                <h2>Merchant Navy</h2>
+            </div>
+            <div class="card">
+                <img src="image/29.jpg" alt="">
+                <h2>Nutrition & Fitness</h2>
+            </div>
+            <div class="card">
+                <img src="image/30.jpg" alt="">
+                <h2>Performing Arts</h2>
+            </div>
+            <div class="card">
+                <img src="image/31.jpg" alt="">
+                <h2>Physical Science</h2>
+            </div>
+            <div class="card">
+                <img src="image/32.jpg" alt="">
+                <h2>Sales</h2>
+            </div>
+            <div class="card">
+                <img src="image/33.jpg" alt="">
+                 <h2>Social Sciences and Humanities</h2>
+            </div>          
+            <div class="card">
+                <img src="image/34.jpg" alt="">
+                 <h2>Social Service
+                </h2>
+            </div>          
+            <div class="card">
+                <img src="image/35.jpg" alt="">
+                 <h2>Therapist</h2>
+            </div>           {% endcomment %}
+        </section>
+    </main>
+</body>
+</html>
