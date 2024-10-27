@@ -1,12 +1,6 @@
 ![logo](https://github.com/Chandu7a7/Talentsync/tree/main/Tailentsync)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-widh, initial-scale=1.0">
 
-</head>
-<body>
+
 
 <h1 align="center">Talentsync</h1>
 
@@ -75,5 +69,4 @@
     <li>GitHub: <a href="https://github.com/Chandu7a7">Chandu7a7</a></li>
 </ul>
 
-</body>
-</html>
+
