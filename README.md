@@ -1,4 +1,4 @@
-![logo](https://github.com/Chandu7a7/Renewo/blob/main/Screenshot%20(114).png)
+![logo](https://github.com/Chandu7a7/Talentsync/blob/main/Talentsync.png)
 <h1 align="center">Talentsync</h1>
 
 <p><strong>Talentsync</strong> is a comprehensive career guidance platform designed to help individuals make informed decisions about their professional paths. The application offers a variety of features, including career assessments, curated courses, insightful blogs, and practice tests, all built using Django.</p>
